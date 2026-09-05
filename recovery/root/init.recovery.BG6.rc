@@ -4,6 +4,7 @@ import /init.recovery.common.rc
 on fs
     insmod /lib/modules/adaptive-ts.ko
     insmod /lib/modules/chipone_icnl99xx.ko
+    insmod /lib/modules/novatek_nt36xxx.ko
     insmod /lib/modules/thermal-generic-adc.ko
 
 on boot
