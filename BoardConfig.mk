@@ -146,10 +146,12 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_MAX_BRIGHTNESS := 4090
-TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone1/temp"
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone0/temp"
 TW_DEFAULT_BRIGHTNESS := 3900
 TW_USE_LEGACY_BATTERY_SERVICES := true
 TW_CUSTOM_BATTERY_PATH := "/sys/devices/platform/charger-manager/power_supply/battery"
+TW_Y_OFFSET := 43
+TW_H_OFFSET := -43
 
 # INCLUDE TWRP CONFIG
 TW_INCLUDE_REPACKTOOLS := true
