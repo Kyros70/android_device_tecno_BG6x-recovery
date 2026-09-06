@@ -4,35 +4,35 @@
  Made by Kyros70
 
  Blocking checks
-- [ ] Correct screen/recovery size
-- [ ] Working Touch screen
-- [ ] Backup to internal/microSD
-- [ ] Restore from internal/microSD
-- [ ] reboot to system
-- [ ] ADB
+- [x] Correct screen/recovery size
+- [x] Working Touch screen
+- [x] Backup to internal/microSD
+- [x] Restore from internal/microSD
+- [x] reboot to system
+- [x] ADB
 
 Medium checks
-- [ ] Screen turns off and on normally
-- [ ] F2FS/EXT4 Support, exFAT/NTFS where supported
-- [ ] all important partitions listed in mount/backup lists
+- [x] Screen turns off and on normally
+- [x] F2FS/EXT4 Support, exFAT/NTFS where supported
+- [x] all important partitions listed in mount/backup lists
 - [ ] backup/restore to/from external (USB-OTG) storage
 - [ ] decrypt /data
-- [ ] Correct date
+- [x] Correct date
 
 Minor checks
-- [ ] MTP
-- [ ] reboot to bootloader
-- [ ] reboot to recovery
-- [ ] power off
-- [ ] battery level
-- [ ] temperature
-- [ ] encrypted backups
+- [x] MTP
+- [x] reboot to bootloader
+- [x] reboot to recovery
+- [x] power off
+- [x] battery level
+- [x] temperature
+- [x] encrypted backups
 - [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks
 - [ ] USB mass storage export
-- [ ] set brightness
+- [x] set brightness
 - [ ] vibrate
-- [ ] screenshot
-- [ ] partition SD card
+- [x] screenshot
+- [x] partition SD card
 
 # Tecno BG6x
 ![Tecno BG6x](https://phonesdata.com/files/models/Tecno-Spark-Go-2024-3.jpg)
